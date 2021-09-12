@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap')
+*{
+    box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.banner{
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+     
+    background-size: cover;
+    height: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.container{
+	width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.banner_h2{
+	margin: 0;
+    font-size: 51px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 69px;
+}
+ 
+.hero_subtitle{
+    font-size: 25px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+.compuny_logos{
+    display: flex;
+    background-color: #EBEBEE;
+    
+}
+.c_row{
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.cl_col_1{
+    flex-basis: 25%;
+    max-width: 25%;
+    padding: 20px;
+}
+.cl_col_2{
+    flex-basis: 25%;
+    max-width: 25%;
+    padding: 20px;
+}
+.cl_col_3{
+    flex-basis: 25%;
+    max-width: 25%;
+    padding: 20px;
+}
+.cl_col_4{
+    flex-basis: 25%;
+    max-width: 25%;
+    padding: 20px;
+}
+.post_one{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.post_one_img1{
+    border-radius: 28px;
+    transform: translate(40px, 40px);
+}
+.post_one_img2{
+    border-radius: 15px;
+}
+.post_one_row{
+    display: flex;
+}
+.col_5{
+    flex-basis: 55%;
+    max-width: 55%;
+    padding: 20px;
+}
+.col_6{
+    flex-basis: 45%;
+    max-width: 45%;
+    padding: 20px;
+    text-align: left;
+}
+.hepls{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.say_goodh1{
+    font-size: 34px;
+    /* font-weight: 600; */
+    word-spacing: 1px;
+    letter-spacing: 4px;
+    margin-top: 20px;
+}
+.col6_secont{
+    padding-left: 10%;
+}
+.col6_p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    line-height: 30px;
+}
+button{
+     padding: 10px 20px;
+    background-color: #8d9eae;
+    width: 200px;
+    height: 60px;
+    border-radius: 12px;
+    border: solid 0;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+.post_tow{
+    background-color: #EBEBEE;
+}
+.gif_img{
+    max-width: 100%;
+}
+.post_towimg1{
+    width: 300px;
+}
